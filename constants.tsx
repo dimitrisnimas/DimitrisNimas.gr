@@ -77,18 +77,18 @@ export const PROJECTS: Project[] = [
   {
     titleKey: 'projectKubikPortalTitle',
     descriptionKey: 'projectKubikPortalDesc',
-    technologies: ['WordPress', 'PHP', 'HTML', 'CSS'],
-    imageUrl: 'assets/images/portfolio/projects/kubiksupport.png',
-    link: 'https://support.kubik.gr',
+    technologies: ['React', 'Node.js', 'HTML', 'Tailwind CSS', 'PostgreSQL'],
+    imageUrl: 'assets/images/projects/kubikportal.png',
+    link: 'https://github.com/dimitrisnimas/KUBIK-Portal',
     category: 'app',
   },
   // 2. Online Delivery App [NEW]
   {
     titleKey: 'projectDeliveryAppTitle',
     descriptionKey: 'projectDeliveryAppDesc',
-    technologies: ['React', 'Node.js', 'PostgreSQL'],
-    imageUrl: 'https://via.placeholder.com/800x600?text=Online+Delivery+App', // Placeholder
-    link: '#',
+    technologies: ['React', 'Node.js', 'HTML', 'Tailwind CSS', 'PostgreSQL'],
+    imageUrl: 'assets/images/projects/kubikonlinedelivery.png',
+    link: 'https://github.com/dimitrisnimas/Online-Delivery-App',
     category: 'app',
   },
   // 3. Online Book Store
@@ -96,7 +96,7 @@ export const PROJECTS: Project[] = [
     titleKey: 'projectBookstoreTitle',
     descriptionKey: 'projectBookstoreDesc',
     technologies: ['Java', 'HTML', 'CSS', 'SQL'],
-    imageUrl: 'assets/images/portfolio/projects/onlinebookstore.png',
+    imageUrl: 'assets/images/projects/onlinebookstore.png',
     link: 'https://github.com/dimitrisnimas/Social-Book-Store',
     category: 'app',
   },
@@ -105,8 +105,8 @@ export const PROJECTS: Project[] = [
     titleKey: 'projectVotingTitle',
     descriptionKey: 'projectVotingDesc',
     technologies: ['WordPress', 'PHP', 'HTML', 'CSS'],
-    imageUrl: 'assets/images/portfolio/projects/votingsystem.png',
-    link: 'https://github.com/dimitrisnimas/Voting-System',
+    imageUrl: 'assets/images/projects/votingsystem.png',
+    link: 'https://github.com/dimitrisnimas/WordPress-Voting-System',
     category: 'plugin',
   },
   // 5. Ticketing System
@@ -114,26 +114,26 @@ export const PROJECTS: Project[] = [
     titleKey: 'projectTicketingTitle',
     descriptionKey: 'projectTicketingDesc',
     technologies: ['WordPress', 'PHP', 'HTML', 'CSS'],
-    imageUrl: 'assets/images/portfolio/projects/ticketingsystem.png',
-    link: 'https://github.com/dimitrisnimas/Ticketing-System',
+    imageUrl: 'assets/images/projects/ticketingsystem.png',
+    link: 'https://github.com/dimitrisnimas/WordPress-Ticketing-System',
     category: 'plugin',
   },
   // 6. WordPress Members Manager [NEW]
   {
     titleKey: 'projectWPMembersManagerTitle',
     descriptionKey: 'projectWPMembersManagerDesc',
-    technologies: ['WordPress', 'PHP'],
-    imageUrl: 'https://via.placeholder.com/800x600?text=WP+Members+Manager', // Placeholder
-    link: 'https://github.com/dimitrisnimas/',
+    technologies: ['WordPress', 'PHP', 'HTML', 'CSS'],
+    imageUrl: 'assets/images/projects/membersmanagement.png', 
+    link: '#',
     category: 'plugin',
   },
   // 7. WooCommerce Invoice Manager [NEW]
   {
     titleKey: 'projectWooInvoiceTitle',
     descriptionKey: 'projectWooInvoiceDesc',
-    technologies: ['WooCommerce', 'PHP'],
-    imageUrl: 'https://via.placeholder.com/800x600?text=Woo+Invoice+Manager', // Placeholder
-    link: 'https://github.com/dimitrisnimas/',
+    technologies: ['WordPress', 'PHP', 'HTML', 'CSS'],
+    imageUrl: 'assets/images/projects/invoicemanagement.png', 
+    link: 'https://github.com/dimitrisnimas/WooCommerce-Invoice-Manager',
     category: 'plugin',
   },
   // 8. B2B WooCommerce Inventory Viewer [NEW]
@@ -141,17 +141,17 @@ export const PROJECTS: Project[] = [
     titleKey: 'projectB2BInventoryTitle',
     descriptionKey: 'projectB2BInventoryDesc',
     technologies: ['WooCommerce', 'React', 'PHP'],
-    imageUrl: 'https://via.placeholder.com/800x600?text=B2B+Inventory', // Placeholder
-    link: '#',
-    category: 'app',
+    imageUrl: 'assets/images/projects/inventorymanagement.png', 
+    link: 'https://github.com/dimitrisnimas/B2B-WooCommerce-Inventory-Viewer',
+    category: 'plugin',
   },
   // 9. WordPress Notice Management System [NEW]
   {
     titleKey: 'projectWPNoticesTitle',
     descriptionKey: 'projectWPNoticesDesc',
     technologies: ['WordPress', 'PHP', 'JavaScript'],
-    imageUrl: 'https://via.placeholder.com/800x600?text=WP+Notices', // Placeholder
-    link: 'https://github.com/dimitrisnimas/',
+    imageUrl: 'assets/images/projects/noticemanagement.png', 
+    link: 'https://github.com/dimitrisnimas/WordPress-Notice-Management-System',
     category: 'plugin',
   },
   // 10. Battleship
@@ -159,7 +159,7 @@ export const PROJECTS: Project[] = [
     titleKey: 'projectBattleshipTitle',
     descriptionKey: 'projectBattleshipDesc',
     technologies: ['Python'],
-    imageUrl: 'assets/images/portfolio/projects/battleship.png',
+    imageUrl: 'assets/images/projects/battleshipgame.png',
     link: 'https://github.com/dimitrisnimas/Battleship',
     category: 'app',
   },
@@ -167,8 +167,8 @@ export const PROJECTS: Project[] = [
   {
     titleKey: 'projectTolidisTitle',
     descriptionKey: 'projectTolidisDesc',
-    technologies: ['WordPress', 'WooCommerce', 'PHP'],
-    imageUrl: 'assets/images/projects/project-1.png',
+    technologies: ['Hosting', 'WordPress', 'WooCommerce', 'PHP', 'HTML', 'CSS'],
+    imageUrl: 'assets/images/projects/tolidisparts.png',
     link: 'https://tolidisparts.gr',
     category: 'eshop',
   },
@@ -176,8 +176,8 @@ export const PROJECTS: Project[] = [
   {
     titleKey: 'projectKubikSiteTitle',
     descriptionKey: 'projectKubikSiteDesc',
-    technologies: ['HTML', 'CSS', 'JavaScript'],
-    imageUrl: 'assets/images/portfolio/websites/kubik_site.png',
+    technologies: ['React', 'Node.js', 'HTML', 'Tailwind CSS'],
+    imageUrl: 'assets/images/projects/kubik.png',
     link: 'https://kubik.gr',
     category: 'website',
   },
@@ -185,8 +185,8 @@ export const PROJECTS: Project[] = [
   {
     titleKey: 'projectAutotolTitle',
     descriptionKey: 'projectAutotolDesc',
-    technologies: ['WordPress', 'WooCommerce', 'PHP'],
-    imageUrl: 'assets/images/portfolio/websites/autotol_site.png',
+    technologies:['Hosting', 'WordPress', 'WooCommerce', 'PHP', 'HTML', 'CSS'],
+    imageUrl: 'assets/images/projects/autotol.png',
     link: 'https://autotol.gr',
     category: 'eshop',
   },
@@ -194,8 +194,8 @@ export const PROJECTS: Project[] = [
   {
     titleKey: 'projectResencoTitle',
     descriptionKey: 'projectResencoDesc',
-    technologies: ['WordPress', 'PHP'],
-    imageUrl: 'https://via.placeholder.com/800x600?text=Resenco.eu', // Placeholder
+    technologies: ['Hosting', 'WordPress', 'CSS'],
+    imageUrl: 'assets/images/projects/resenco.png', 
     link: 'https://resenco.eu',
     category: 'website',
   },
@@ -203,8 +203,8 @@ export const PROJECTS: Project[] = [
   {
     titleKey: 'projectTzepetoTitle',
     descriptionKey: 'projectTzepetoDesc',
-    technologies: ['WordPress'],
-    imageUrl: 'assets/images/portfolio/websites/tzepeto.png',
+    technologies: ['Hosting', 'WordPress'],
+    imageUrl: 'assets/images/projects/tzepeto.png',
     link: 'https://tzepetobar.gr',
     category: 'website',
   },
@@ -212,8 +212,8 @@ export const PROJECTS: Project[] = [
   {
     titleKey: 'projectSepamTitle',
     descriptionKey: 'projectSepamDesc',
-    technologies: ['WordPress', 'PHP', 'HTML', 'CSS'],
-    imageUrl: 'assets/images/portfolio/websites/sepam_site.png',
+    technologies: ['Hosting', 'WordPress', 'PHP', 'HTML', 'CSS'],
+    imageUrl: 'assets/images/projects/sepam.png',
     link: 'https://sepam.gr',
     category: 'website',
   },
@@ -221,8 +221,8 @@ export const PROJECTS: Project[] = [
   {
     titleKey: 'projectComputerMathematicaTitle',
     descriptionKey: 'projectComputerMathematicaDesc',
-    technologies: ['WordPress'],
-    imageUrl: 'assets/images/portfolio/websites/computermathematica_site.png',
+    technologies: ['Hosting', 'WordPress'],
+    imageUrl: 'assets/images/projects/computermathematica.png',
     link: 'https://computermathematica.gr',
     category: 'website',
   },
@@ -230,17 +230,17 @@ export const PROJECTS: Project[] = [
   {
     titleKey: 'projectCodeMentorsTitle',
     descriptionKey: 'projectCodeMentorsDesc',
-    technologies: ['WordPress'],
-    imageUrl: 'assets/images/portfolio/websites/codementor_site.png',
-    link: 'https://codementors.gr',
+    technologies: ['Hosting', 'WordPress'],
+    imageUrl: 'assets/images/projects/codementor.png',
+    link: 'https://codementor.gr',
     category: 'website',
   },
   // 19. 6Gems.gr
   {
     titleKey: 'project6GemsTitle',
     descriptionKey: 'project6GemsDesc',
-    technologies: ['WordPress', 'WooCommerce', 'PHP'],
-    imageUrl: 'assets/images/portfolio/websites/6gems_site.png',
+    technologies: ['Hosting', 'WordPress', 'WooCommerce', 'PHP'],
+    imageUrl: 'assets/images/projects/6gems.png',
     link: 'https://6gems.gr',
     category: 'eshop',
   },
@@ -248,8 +248,8 @@ export const PROJECTS: Project[] = [
   {
     titleKey: 'projectBeVintageTitle',
     descriptionKey: 'projectBeVintageDesc',
-    technologies: ['WordPress', 'WooCommerce', 'PHP'],
-    imageUrl: 'assets/images/portfolio/websites/bevintage_site.png',
+    technologies: ['Hosting', 'WordPress', 'WooCommerce', 'PHP'],
+    imageUrl: 'assets/images/projects/bevintage.png',
     link: 'https://bevintage.gr',
     category: 'eshop',
   },
@@ -258,7 +258,7 @@ export const PROJECTS: Project[] = [
     titleKey: 'projectBabisTitle',
     descriptionKey: 'projectBabisDesc',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    imageUrl: 'assets/images/portfolio/websites/obabisplatanos.png',
+    imageUrl: 'assets/images/projects/obabisplatanos.png',
     link: 'https://obabisplatanos.gr',
     category: 'website',
   },
