@@ -38,7 +38,7 @@ export const translations = {
     portfolioTitle: 'Projects',
     portfolioSubtitle: 'Visit my portfolio and keep your feedback',
     portfolioViewProject: 'View Project',
-    portfolioExternalLink: 'For E-shops & Websites, visit previous work',
+    portfolioExternalLink: 'For more eShops visit KUBIK',
 
     // Projects
     projectKubikPortalTitle: 'Kubik Portal',
@@ -204,7 +204,7 @@ export const translations = {
     projectB2BInventoryTitle: 'B2B Inventory Viewer',
     projectB2BInventoryDesc:
       'B2B πλατφόρμα για έλεγχο αποθεμάτων σε πραγματικό χρόνο και μαζικές παραγγελίες.',
-    projectWPNoticesTitle: 'WP Notice Manager',
+    projectWPNoticesTitle: 'WordPress Notice Manager',
     projectWPNoticesDesc:
       'Σύστημα διαχείρισης και προβολής ειδοποιήσεων σε όλο το WordPress site.',
     projectBattleshipTitle: 'Battleship Game',
