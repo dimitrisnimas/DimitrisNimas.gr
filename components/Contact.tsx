@@ -41,7 +41,7 @@ const Contact: React.FC = () => {
         </div>
 
         <form 
-          action="https://formsubmit.co/your@email.com" 
+          action="https://formsubmit.co/hello@dimitrisnimas.gr" 
           method="POST" 
           className="space-y-4"
           >
