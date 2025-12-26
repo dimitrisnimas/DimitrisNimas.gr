@@ -40,25 +40,63 @@ const Contact: React.FC = () => {
             </div>
         </div>
 
-        <form className="space-y-4">
-          <div>
-            <label htmlFor="name" className="sr-only">{t.contactFormName}</label>
-            <input type="text" name="name" id="name" placeholder={t.contactFormName} className="w-full bg-gray-900/50 border-2 border-gray-700 rounded-lg py-3 px-4 text-white focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-cyan-500 transition" required />
-          </div>
-          <div>
-            <label htmlFor="email" className="sr-only">{t.contactFormEmail}</label>
-            <input type="email" name="email" id="email" placeholder={t.contactFormEmail} className="w-full bg-gray-900/50 border-2 border-gray-700 rounded-lg py-3 px-4 text-white focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-cyan-500 transition" required />
-          </div>
-          <div>
-            <label htmlFor="message" className="sr-only">{t.contactFormMessage}</label>
-            <textarea name="message" id="message" rows={5} placeholder={t.contactFormMessage} className="w-full bg-gray-900/50 border-2 border-gray-700 rounded-lg py-3 px-4 text-white focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-cyan-500 transition" required></textarea>
-          </div>
-          <div>
-            <button type="submit" className="w-full bg-gradient-to-r from-cyan-500 to-purple-500 text-white font-bold py-3 px-6 rounded-lg text-lg hover:opacity-90 transition-all duration-300 transform hover:scale-105 shadow-lg shadow-cyan-500/20">
-              {t.contactFormSubmit}
-            </button>
-          </div>
-        </form>
+        <form 
+          action="https://formsubmit.co/your@email.com" 
+          method="POST" 
+          className="space-y-4"
+          >
+            {/* Optional: Honeypot to reduce spam */}
+            <input type="hidden" name="_honey" />
+            {/* Optional: Redirect after submission */}
+            <input type="hidden" name="_next" value="https://yourdomain.com/thank-you" />
+          
+            <div>
+              <label htmlFor="name" className="sr-only">{t.contactFormName}</label>
+              <input 
+                type="text" 
+                name="name" 
+                id="name" 
+                placeholder={t.contactFormName} 
+                className="w-full bg-gray-900/50 border-2 border-gray-700 rounded-lg py-3 px-4 text-white focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-cyan-500 transition" 
+                required 
+              />
+            </div>
+          
+            <div>
+              <label htmlFor="email" className="sr-only">{t.contactFormEmail}</label>
+              <input 
+                type="email" 
+                name="email" 
+                id="email" 
+                placeholder={t.contactFormEmail} 
+                className="w-full bg-gray-900/50 border-2 border-gray-700 rounded-lg py-3 px-4 text-white focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-cyan-500 transition" 
+                required 
+              />
+            </div>
+          
+            <div>
+              <label htmlFor="message" className="sr-only">{t.contactFormMessage}</label>
+              <textarea 
+                name="message" 
+                id="message" 
+                rows={5} 
+                placeholder={t.contactFormMessage} 
+                className="w-full bg-gray-900/50 border-2 border-gray-700 rounded-lg py-3 px-4 text-white focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-cyan-500 transition" 
+                required
+              ></textarea>
+            </div>
+          
+            <div>
+              <button 
+                type="submit" 
+                className="w-full bg-gradient-to-r from-cyan-500 to-purple-500 text-white font-bold py-3 px-6 rounded-lg text-lg hover:opacity-90 transition-all duration-300 transform hover:scale-105 shadow-lg shadow-cyan-500/20"
+              >
+                {t.contactFormSubmit}
+              </button>
+            </div>
+          </form>
+
+
       </div>
     </Section>
   );
