@@ -24,7 +24,7 @@ const Contact: React.FC = () => {
                 </svg></div>
                 <div>
                     <h4 className="font-semibold text-white">{t.contactInfoEmail}</h4>
-                    <a href="mailto:hello@dimitrisnimas.gr" className="text-gray-300 hover:text-cyan-400">contact@dimitrisnimas.gr</a>
+                    <a href="mailto:hello@dimitrisnimas.gr" className="text-gray-300 hover:text-cyan-400">hello@dimitrisnimas.gr</a>
                 </div>
             </div>
              
@@ -35,7 +35,7 @@ const Contact: React.FC = () => {
                 </svg></div>
                 <div>
                     <h4 className="font-semibold text-white">{t.contactInfoLocation}</h4>
-                    <p className="text-gray-300">Thessaloniki, Greece</p>
+                    <p className="text-gray-300">Athens, Greece</p>
                 </div>
             </div>
         </div>
