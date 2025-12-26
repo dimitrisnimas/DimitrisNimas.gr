@@ -42,7 +42,7 @@ export const translations = {
 
     // Projects
     projectKubikPortalTitle: 'Kubik Portal',
-    projectKubikPortalDesc: 'The Kubik Support Portal is a lightweight, self-hosted ticketing system built specifically for WordPress websites.',
+    projectKubikPortalDesc: 'A comprehensive, multi-tenant SaaS application for managing assets, tickets, billing, and services.',
     projectDeliveryAppTitle: 'Online Delivery App',
     projectDeliveryAppDesc: 'A modern web application for online food delivery, featuring real-time order tracking and menu management.',
     projectBookstoreTitle: 'Online Book Store',
@@ -57,7 +57,7 @@ export const translations = {
     projectWooInvoiceDesc: 'Automated invoicing system for WooCommerce, generating PDF invoices and packing slips.',
     projectB2BInventoryTitle: 'B2B Inventory Viewer',
     projectB2BInventoryDesc: 'A B2B portal for real-time inventory checking and bulk ordering, integrated with WooCommerce.',
-    projectWPNoticesTitle: 'WP Notice Manager',
+    projectWPNoticesTitle: 'WordPress Notice Manager',
     projectWPNoticesDesc: 'A system to manage and display global notices and alerts across a WordPress site.',
     projectBattleshipTitle: 'Battleship Game',
     projectBattleshipDesc: 'A terminal-based Battleship game written in Python, supporting both 1-player and 2-player modes.',
@@ -182,7 +182,7 @@ export const translations = {
     // Projects
     projectKubikPortalTitle: 'Kubik Portal',
     projectKubikPortalDesc:
-      'Το Kubik Support Portal είναι ένα ελαφρύ, self-hosted σύστημα ticketing σχεδιασμένο αποκλειστικά για WordPress.',
+      'Μια ολοκληρωμένη, πολυενοικιακή (multi-tenant) εφαρμογή SaaS για τη διαχείριση περιουσιακών στοιχείων, αιτημάτων υποστήριξης (tickets), τιμολόγησης και υπηρεσιών.',
     projectDeliveryAppTitle: 'Online Delivery App',
     projectDeliveryAppDesc:
       'Σύγχρονη web εφαρμογή για online παραγγελίες φαγητού με διαχείριση μενού και παρακολούθηση παραγγελιών.',
