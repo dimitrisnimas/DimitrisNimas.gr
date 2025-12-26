@@ -26,7 +26,7 @@ const Portfolio: React.FC = () => {
 
       <div className="mt-16 text-center">
             <a 
-                href="https://dimitrisnimas.gr/websites" 
+                href="https://kubik.gr" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center bg-gray-800 text-cyan-300 font-bold py-3 px-6 rounded-full text-md hover:bg-gray-700 transition-all duration-300 transform hover:scale-105 border border-gray-700">
