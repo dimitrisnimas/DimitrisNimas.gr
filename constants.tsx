@@ -217,7 +217,16 @@ export const PROJECTS: Project[] = [
     link: 'https://sepam.gr',
     category: 'website',
   },
-  // 17. ComputerMathematica.gr
+  // 17. SolarProjects.gr
+  {
+    titleKey: 'projectSolarProjectsTitle',
+    descriptionKey: 'projectSolarProjectsDesc',
+    technologies: ['Hosting', 'WordPress', 'CSS'],
+    imageUrl: 'assets/images/projects/solarprojects.png',
+    link: 'https://solarprojects.gr',
+    category: 'website',
+  },
+  // 18. ComputerMathematica.gr
   {
     titleKey: 'projectComputerMathematicaTitle',
     descriptionKey: 'projectComputerMathematicaDesc',
@@ -226,7 +235,7 @@ export const PROJECTS: Project[] = [
     link: 'https://computermathematica.gr',
     category: 'website',
   },
-  // 18. CodeMentors.gr
+  // 19. CodeMentors.gr
   {
     titleKey: 'projectCodeMentorsTitle',
     descriptionKey: 'projectCodeMentorsDesc',
@@ -235,7 +244,7 @@ export const PROJECTS: Project[] = [
     link: 'https://codementor.gr',
     category: 'website',
   },
-  // 19. 6Gems.gr
+  // 20. 6Gems.gr
   {
     titleKey: 'project6GemsTitle',
     descriptionKey: 'project6GemsDesc',
@@ -244,7 +253,7 @@ export const PROJECTS: Project[] = [
     link: 'https://6gems.gr',
     category: 'eshop',
   },
-  // 20. BeVintage.gr
+  // 21. BeVintage.gr
   {
     titleKey: 'projectBeVintageTitle',
     descriptionKey: 'projectBeVintageDesc',
@@ -253,7 +262,7 @@ export const PROJECTS: Project[] = [
     link: 'https://bevintage.gr',
     category: 'eshop',
   },
-  // 21. oBabisPlatanos.gr
+  // 22. oBabisPlatanos.gr
   {
     titleKey: 'projectBabisTitle',
     descriptionKey: 'projectBabisDesc',
