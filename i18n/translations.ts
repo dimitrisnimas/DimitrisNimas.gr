@@ -72,6 +72,8 @@ export const translations = {
     projectTzepetoTitle: 'TzepetoBar.gr',
     projectTzepetoDesc: 'WordPress website for a local bar.',
     projectSepamTitle: 'SEPAM.gr',
+    projectSolarProjectsDesc: 'Corporate website built with WordPress, PHP, HTML, and CSS.',
+    projectSolarProjectsTitle: 'SolarProjects.gr',
     projectSepamDesc: 'Corporate website built with WordPress, PHP, HTML, and CSS.',
     projectComputerMathematicaTitle: 'ComputerMathematica.gr',
     projectComputerMathematicaDesc: 'WordPress website for computer mathematics resources.',
@@ -228,6 +230,8 @@ export const translations = {
     projectSepamTitle: 'SEPAM.gr',
     projectSepamDesc:
       'Εταιρική ιστοσελίδα κατασκευασμένη με WordPress, PHP, HTML και CSS.',
+    projectSolarProjectsDesc: 'Εταιρική ιστοσελίδα κατασκευασμένη με WordPress, PHP, HTML και CSS.',
+    projectSolarProjectsTitle: 'SolarProjects.gr',
     projectComputerMathematicaTitle: 'ComputerMathematica.gr',
     projectComputerMathematicaDesc:
       'Ιστοσελίδα WordPress με εκπαιδευτικό περιεχόμενο μαθηματικών.',
