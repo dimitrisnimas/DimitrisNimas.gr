@@ -176,8 +176,8 @@ export const PROJECTS: Project[] = [
   {
     titleKey: 'projectKubikSiteTitle',
     descriptionKey: 'projectKubikSiteDesc',
-    technologies: ['React', 'Node.js', 'HTML', 'Tailwind CSS'],
-    imageUrl: 'assets/images/projects/comingsoon.png',
+    technologies: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'Framer Motion'],
+    imageUrl: 'assets/images/projects/kubik.png',
     link: 'https://kubik.gr',
     category: 'website',
   },
