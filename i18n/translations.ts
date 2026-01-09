@@ -64,9 +64,11 @@ export const translations = {
     projectTolidisTitle: 'TolidisParts.gr',
     projectTolidisDesc: 'Auto parts e-shop using WordPress and WooCommerce.',
     projectKubikSiteTitle: 'Kubik.gr',
-    projectKubikSiteDesc: 'Corporate website for Kubik Digital. Built with HTML, CSS, and JavaScript.',
+    projectKubikSiteDesc: 'Corporate website for Kubik Digital.',
     projectAutotolTitle: 'AutoTol.gr',
     projectAutotolDesc: 'E-shop built with WordPress and WooCommerce for auto parts.',
+    projectElateiaHistoricTrailTitle: 'ElateiaHistoricTrail.gr',
+    projectElateiaHistoricTrailDesc: 'WordPress website for an environmental NPO.',
     projectResencoTitle: 'Resenco.eu',
     projectResencoDesc: 'Corporate website for Resenco, focused on renewable energy solutions.',
     projectTzepetoTitle: 'TzepetoBar.gr',
@@ -217,10 +219,12 @@ export const translations = {
       'E-shop ανταλλακτικών αυτοκινήτων με WordPress και WooCommerce.',
     projectKubikSiteTitle: 'Kubik.gr',
     projectKubikSiteDesc:
-      'Εταιρική ιστοσελίδα της Kubik Digital με HTML, CSS και JavaScript.',
+      'Εταιρική ιστοσελίδα της Kubik Digital.',
     projectAutotolTitle: 'AutoTol.gr',
     projectAutotolDesc:
       'E-shop ανταλλακτικών αυτοκινήτων με WordPress και WooCommerce.',
+    projectElateiaHistoricTrailTitle: 'ElateiaHistoricTrail.gr',
+    projectElateiaHistoricTrailDesc: 'WordPress ιστοσελίδα για ορειβατικό σύλλογο.',
     projectResencoTitle: 'Resenco.eu',
     projectResencoDesc:
       'Εταιρική ιστοσελίδα με επίκεντρο τις λύσεις ανανεώσιμων πηγών ενέργειας.',
